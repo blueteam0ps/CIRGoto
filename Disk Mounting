@@ -1,0 +1,9 @@
+<b>Mounting E01 in Ubuntu</b>
+This will even work when you have split E0's.
+
+xmount --in ewf /pathto/E0? /mnt/target
+fdisk -l /mnt/target/blabla.dd
+
+Get the partition offset (Start of the partition) from the fdisk out put and multiple it by 512*
+
+mount -o loop,ro,show_sys_files,stream_interface=windows,offset=XYAD /mnt/target/blabla.dd /mnt/freshmount
