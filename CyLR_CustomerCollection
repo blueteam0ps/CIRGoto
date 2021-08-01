@@ -23,7 +23,6 @@ glob E:\Users\*\AppData\Local\ConnectedDevicesPlatform\**
 glob E:\Users\*\AppData\Local\Microsoft\Terminal Server Client\Cache\**
 glob E:\Documents and Settings\*\Local Settings\Application Data\Microsoft\Terminal Server Client\Cache\**
 glob E:\ProgramData\Microsoft\Network\Downloader\**
-glob E:\ProgramData\Microsoft\Network\Downloader\**
 glob E:\Windows\System32\grouppolicy\**
 glob E:\Windows\System32\WDI\LogFiles\StartupInfo\**
 glob E:\Users\%user%\AppData\Local\Microsoft\Windows\Notifications\**
@@ -61,7 +60,6 @@ glob E:\Windows.old\Tasks\**
 glob E:\Windows.old\Prefetch\**
 glob E:\Windows.old\System32\sru\**
 glob E:\Windows.old\System32\winevt\Logs\**
-glob E:\Windows.old\System32\Tasks\**
 glob E:\Windows.old\System32\LogFiles\W3SVC1\**
 glob E:\Windows.old\System32\Appcompat\Programs\**
 glob E:\Windows.old\System32\WDI\LogFiles\StartupInfo\**
