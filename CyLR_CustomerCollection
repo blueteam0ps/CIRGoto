@@ -1,0 +1,85 @@
+#===========================================================================================#
+# CyLR Custom File Path Collection 
+# This custom file path file can be used if you have a target disk mounted as a drive letter.
+Just change the drive letter from E to your drive letter.
+#===========================================================================================#
+
+#Collection from existing drive's OS
+glob E:\Windows\Tasks\**
+glob E:\Windows\Prefetch\**
+glob E:\Windows\System32\sru\**
+glob E:\Windows\System32\winevt\Logs\**
+glob E:\Windows\System32\Tasks\**
+glob E:\Windows\System32\LogFiles\W3SVC1\**
+glob E:\Windows\System32\Appcompat\Programs\**
+glob E:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\**
+glob E:\$Recycle.Bin\**\$I*
+glob E:\$Recycle.Bin\$I*
+glob E:\Users\*\AppData\Roaming\Microsoft\Windows\Recent\**
+glob E:\Users\*\AppData\Local\Microsoft\Windows\WebCache\**
+glob E:\Users\*\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\**
+glob E:\Users\*\AppData\Roaming\Mozilla\Firefox\Profiles\**
+glob E:\Users\*\AppData\Local\ConnectedDevicesPlatform\**
+glob E:\Users\*\AppData\Local\Microsoft\Terminal Server Client\Cache\**
+glob E:\Documents and Settings\*\Local Settings\Application Data\Microsoft\Terminal Server Client\Cache\**
+glob E:\ProgramData\Microsoft\Network\Downloader\**
+glob E:\ProgramData\Microsoft\Network\Downloader\**
+glob E:\Windows\System32\grouppolicy\**
+glob E:\Windows\System32\WDI\LogFiles\StartupInfo\**
+glob E:\Users\%user%\AppData\Local\Microsoft\Windows\Notifications\**
+glob E:\Windows\System32\wbem\Repository\**
+static E:\Windows\SchedLgU.Txt
+static E:\Windows\inf\setupapi.dev.log
+static E:\Windows\System32\drivers\etc\hosts
+static E:\Windows\System32\config\SAM
+static E:\Windows\System32\config\SYSTEM
+static E:\Windows\System32\config\SOFTWARE
+static E:\Windows\System32\config\SECURITY
+static E:\Windows\System32\config\SAM.LOG1
+static E:\Windows\System32\config\SYSTEM.LOG1
+static E:\Windows\System32\config\SOFTWARE.LOG1
+static E:\Windows\System32\config\SECURITY.LOG1
+static E:\Windows\System32\config\SAM.LOG2
+static E:\Windows\System32\config\SYSTEM.LOG2
+static E:\Windows\System32\config\SOFTWARE.LOG2
+static E:\Windows\System32\config\SECURITY.LOG2
+static E:\$LogFile
+static E:\$MFT
+static E:\Users\*\NTUSER.DAT.LOG1
+static E:\Users\*\NTUSER.DAT.LOG2
+static E:\Users\*\NTUSER.DAT
+static E:\Users\*\Microsoft\Windows\UsrClass.dat
+static E:\Users\*\Microsoft\Windows\UsrClass.dat.LOG1
+static E:\Users\*\Microsoft\Windows\UsrClass.dat.LOG2
+static E:\Users\*\Google\Chrome\User Data\Default\History
+static E:\Users\*\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+static E:\Windows\Temp\MpCmdRun.log
+static E:\programdata\microsoft\search\data\applications\windows\Windows.edb
+
+#Collection from Old Windows Installation
+glob E:\Windows.old\Tasks\**
+glob E:\Windows.old\Prefetch\**
+glob E:\Windows.old\System32\sru\**
+glob E:\Windows.old\System32\winevt\Logs\**
+glob E:\Windows.old\System32\Tasks\**
+glob E:\Windows.old\System32\LogFiles\W3SVC1\**
+glob E:\Windows.old\System32\Appcompat\Programs\**
+glob E:\Windows.old\System32\WDI\LogFiles\StartupInfo\**
+glob E:\Windows.old\System32\grouppolicy\**
+glob E:\Windows.old\System32\wbem\Repository\**
+static E:\Windows.old\SchedLgU.Txt
+static E:\Windows.old\inf\setupapi.dev.log
+static E:\Windows.old\System32\drivers\etc\hosts
+static E:\Windows.old\System32\config\SAM
+static E:\Windows.old\System32\config\SYSTEM
+static E:\Windows.old\System32\config\SOFTWARE
+static E:\Windows.old\System32\config\SECURITY
+static E:\Windows.old\System32\config\SAM.LOG1
+static E:\Windows.old\System32\config\SYSTEM.LOG1
+static E:\Windows.old\System32\config\SOFTWARE.LOG1
+static E:\Windows.old\System32\config\SECURITY.LOG1
+static E:\Windows.old\System32\config\SAM.LOG2
+static E:\Windows.old\System32\config\SYSTEM.LOG2
+static E:\Windows.old\System32\config\SOFTWARE.LOG2
+static E:\Windows.old\System32\config\SECURITY.LOG2
+static E:\Windows.old\Temp\MpCmdRun.log
