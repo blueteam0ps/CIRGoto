@@ -1,4 +1,4 @@
-<b>Mounting E01 in Ubuntu</b>
+Mounting E01 in Ubuntu
 This will even work when you have split E0's.
 
 xmount --in ewf /pathto/E0? /mnt/target
